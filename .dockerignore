@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules
+
+# TypeScript output
+dist
+
+# Environment variables
+.env
+
+# Docker files
+.dockerignore
+
+# Git files
+.git
+.gitignore
+
+# Log files
+*.log
+
+# IDE specific files
+.vscode

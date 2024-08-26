@@ -1,7 +1,7 @@
 import { Model, DataTypes, Optional } from 'sequelize';
 import { sequelize } from '../config/database';
-import { Message } from './message';
-import { Group } from './group';
+// import { Message } from './Message';
+// import { Group } from './Group';
 
 interface UserAttributes {
   id: number;

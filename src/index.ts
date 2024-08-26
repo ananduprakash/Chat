@@ -1,7 +1,7 @@
 import { Sequelize } from 'sequelize';
-import { User } from './models/user';
-import { Message } from './models/message';
-import { Group } from './models/group';
+import { User } from './models/User';
+import { Message } from './models/Message';
+import { Group } from './models/Group';
 import { sequelize } from './config/database';
 
 // Set up associations

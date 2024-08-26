@@ -1,12 +1,13 @@
 {
-  "name": "Chat",
+  "name": "chat",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "sequelize": "ts-node -r tsconfig-paths/register ./node_modules/.bin/sequelize-cli --config src/config/database.ts"
   },
   "dependencies": {
     "@types/express": "^4.17.21",
