@@ -8,8 +8,13 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "#*": ["./src/*"]
+    },
   },
-  "include": ["src/**/*.ts", "src/models/index.js"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
